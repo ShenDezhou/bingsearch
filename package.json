@@ -2,12 +2,12 @@
   "name": "bingsearch",
   "main": "./lib/googlesearch",
   "version": "1.8.0",
-  "description": "Search Highlighted word in bing",
+  "description": "Search Highlighted word in cn.bing.com",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "bingsearch:bing-it"
   },
-  "repository": "https://github.com/shendezhou/googlesearch",
+  "repository": "https://github.com/shendezhou/bingsearch",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
