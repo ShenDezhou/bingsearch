@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle bingsearch'
+      'command': 'bingsearch:bing-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'bing Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'bingsearch:bing-it'
+        }
+      ]
+    ]
+  }
+]

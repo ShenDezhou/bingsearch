@@ -1,0 +1,16 @@
+{
+  "name": "bingsearch",
+  "main": "./lib/googlesearch",
+  "version": "1.8.0",
+  "description": "Search Highlighted word in bing",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "bingsearch:bing-it"
+  },
+  "repository": "https://github.com/shendezhou/googlesearch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
